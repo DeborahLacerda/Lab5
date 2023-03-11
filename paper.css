@@ -1,0 +1,57 @@
+Body {
+  font-family: "Times New Roman", Times, serif;
+  padding: 20pt 20pt 20pt 20pt;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  font-size: 1.8em;
+}
+h2 {
+  font-size: 1.4em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+p {
+  text-align: justify;
+  text-indent: 50px;
+  font-size: calc(1em * 0.975);
+}
+
+a {
+  text-decoration: none;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.linkWord {
+  padding-left: 70pt;
+}
+
+.word {
+  float: left;
+  height: 20px;
+}
+
+.ref {
+  display: inline;
+  vertical-align: super;
+  font-size: 80%;
+}
+
+#doc {
+  text-decoration: none;
+  padding-left: 10pt;
+  color: black;
+}
+
+#h1decor {
+  text-decoration: none;
+}

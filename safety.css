@@ -1,0 +1,72 @@
+body {
+  --color--black: #000000;
+  --color--cyan-bluish-gray: #abb8c3;
+  --color--white: #ffffff;
+  --color--new-green: #006341;
+  --color--grey: #686868;
+
+  background-color: var(--color--white);
+  color: var(--color--new-green);
+  font-family: "Gotham SSm A", "Gotham SSm B", "proxima_nova_rgregular",
+    sans-serif;
+}
+
+.gallery {
+  margin: 5px;
+  width: 500px;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: space-between;
+  padding: 20px 20px 20px 20px;
+}
+
+h2 {
+  display: block;
+  background-color: var(--color--grey);
+  width: 100%;
+  max-height: 60px;
+  margin-top: 0px;
+  padding: 20px 20px 20px 20px;
+  color: var(--color--white);
+  font-size: 40px;
+}
+
+.text {
+  font-size: 32px;
+}
+
+.italic-motherfucker {
+  font-style: italic;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 50px;
+}
+
+li a {
+  padding: 12px;
+  text-decoration: none;
+  color: var(--color--new-green);
+  display: block;
+}
+li a:hover {
+  background-color: var(--color--cyan-bluish-gray);
+}
+
+.cartoon {
+  float: left;
+  height: 250px;
+  padding-left: 20pt;
+  padding-right: 30pt;
+}

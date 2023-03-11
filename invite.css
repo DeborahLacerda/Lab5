@@ -1,0 +1,43 @@
+body {
+  font-family: Verdana, Tahoma, sans-serif;
+  background-image: linear-gradient(
+    to right,
+    rgb(243, 142, 142),
+    rgb(243, 210, 148),
+    rgb(243, 243, 148),
+    rgb(156, 248, 156),
+    rgb(174, 174, 247),
+    rgb(224, 191, 247),
+    rgb(246, 181, 246)
+  );
+}
+
+header {
+  padding: 30px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 50px;
+  color: black;
+}
+
+section,
+footer {
+  font-size: 35px;
+  text-align: center;
+}
+
+.globoimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 60%;
+}
+
+marquee {
+  font-weight: 800;
+  color: black;
+  font-size: 50px;
+}
